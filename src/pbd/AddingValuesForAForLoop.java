@@ -8,17 +8,18 @@ public class AddingValuesForAForLoop {
 
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("Enter an integer.");
+		System.out.print("Enter an integer.");
 
 		int max = input.nextInt();
-		System.out.println("The numbers are:");
+		System.out.print("The numbers are:");
 		int sum = 0;
 
 		for (int i = 1; i <= max; i++) {
 			sum = sum + i;
-			System.out.println(i);
+			System.out.print(" " + i);
 		}
-		System.out.println("The sum is " + sum);
+		System.out.println(" ");
+		System.out.print("The sum is " + sum);
 	}
 
 }
