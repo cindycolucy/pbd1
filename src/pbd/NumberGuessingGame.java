@@ -20,7 +20,7 @@ public class NumberGuessingGame {
 			System.out.println("Correct! You win!");
 			
 		}else{
-			System.out.println("Sorry, the number I was think of is " + x + ".");
+			System.out.println("Sorry, the number I was thinking of is " + x + ".");
 		}
 
 	}
