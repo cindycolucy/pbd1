@@ -20,15 +20,15 @@ public class GenderGame {
 		System.out.println("Enter your age.");
 		int age = input.nextInt();
 
-		if (gender == "F" && age < 20) {
+		if (gender.equalsIgnoreCase("F") && age < 20) {
 			System.out.println("I shall call you " + firstName + " " + lastName);
-		}
-		if (gender == "F" && age >= 20) {
-			System.out.println("Are you married? (Y or N)");
+		} else if (gender.equalsIgnoreCase("F") && age >= 20) {
+			System.out.println("Are you married? Y or N");
 			String married = input.nextLine();
-			if (married == "Y") {
-				System.out.println("I shall call you Mrs. " + lastName);
-			}
+
+			 if (married.equalsIgnoreCase("Y")) {
+			 System.out.println("I shall call you Mrs. " + lastName);
+			 }
 		}
 	}
 
