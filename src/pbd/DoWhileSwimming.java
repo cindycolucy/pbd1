@@ -28,7 +28,7 @@ public class DoWhileSwimming {
             System.out.print( "\t" + swimmer1 + " swims for a bit." );
             swimTime++;
             System.out.println( " Swim time: " + swimTime + " min." );
-            Thread.sleep(600); // pauses for 600 milliseconds
+//            Thread.sleep(600); // pauses for 600 milliseconds
             currentTemperature -= 0.5; // subtracts 1/2 a degree from the water temperature
             System.out.println( "\tThe current water temperature is now " + currentTemperature + "F." );
         }
@@ -46,7 +46,7 @@ public class DoWhileSwimming {
             System.out.print( "\t" + swimmer2 + " swims for a bit." );
             swimTime++;
             System.out.println( " Swim time: " + swimTime + " min." );
-            Thread.sleep(600);
+//            Thread.sleep(600);
             currentTemperature -= 0.5;
             System.out.println( "\tThe current water temperature is now " + currentTemperature + "F." );
 

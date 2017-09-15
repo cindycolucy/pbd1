@@ -9,7 +9,7 @@ public class FlipAgain {
 		Scanner input = new Scanner(System.in);
 		Random rng = new Random();
 
-		String again;
+		String again = "y";
 
 		while (again.equals("y")) {
 			int flip = rng.nextInt(2);
