@@ -23,13 +23,13 @@ public class BabyNim {
 
 		int num = input.nextInt();
 
-		while (atotal > 0 || btotal > 0 || ctotal > 0) {
-			if (pile == "A") {
+		while (atotal >= 0 || btotal >= 0 || ctotal >= 0) {
+			if (pile.equals("A")) {
 				atotal = a - num;
 				btotal = b;
 				ctotal = c;
 				System.out.println("A: " + atotal + ", B: " + btotal + ", C: " + ctotal);
-			} else if (pile == "B") {
+			} else if (pile.equals("B")) {
 				atotal = a;
 				btotal = b - num;
 				ctotal = c;
