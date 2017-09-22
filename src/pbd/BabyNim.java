@@ -15,15 +15,15 @@ public class BabyNim {
 
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("Select a pile A, B or C.");
-
-		String pile = input.nextLine();
-
-		System.out.println("How many to remove from pile " + pile + "?");
-
-		int num = input.nextInt();
-
 		while (atotal >= 0 || btotal >= 0 || ctotal >= 0) {
+			System.out.println("Select a pile A, B or C.");
+			
+			String pile = input.nextLine();
+			
+			System.out.println("How many to remove from pile " + pile + "?");
+			
+			int num = input.nextInt();
+			
 			if (pile.equals("A")) {
 				atotal = a - num;
 				btotal = b;
